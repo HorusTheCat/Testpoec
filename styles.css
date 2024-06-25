@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.contact-info ul,
+.skills ul,
+.experience .job ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li,
+.skills ul li,
+.experience .job ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #777;
+}
